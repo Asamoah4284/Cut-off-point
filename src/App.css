@@ -1,0 +1,47 @@
+.hero-left {
+  background-image: url("/images/1.jpg");
+  /* background: url("/images/1.jpg"); */
+  /* background-color: red; */
+  background-position: center;
+  background-size: cover;
+}
+.trans {
+  /* background-image: url("images/1.jpg"); */
+  background: url("");
+  background-position: center;
+  background-size: cover;
+  /* background-size: cover; */
+  /* background: red; */
+}
+
+.html {
+  /* background-color: red; */
+}
+.primary-header {
+  font-size: clamp(1.5rem, 0.3333rem + 3.3333vw, 3rem);
+}
+.secondary-header {
+  font-size: clamp(0.625rem, 0.3333rem + 1.4583vw, 1.5rem);
+}
+.tertiary-header {
+  font-size: clamp(0.5rem, 0.25rem + 1.25vw, 1.25rem);
+}
+
+.primary-paragraph {
+  /* font-size: clamp(0.75rem, 0.4167rem + 1.6667vw, 1.75rem); */
+  /* font-size: clamp(0.625rem, 0.4167rem + 1.0417vw, 1.25rem); */
+  /* font-size: clamp(0.625rem, 0.3333rem + 1.4583vw, 1.5rem); */
+  /* font-size: clamp(0.75rem, 0.5833rem + 0.8333vw, 1.25rem); */
+  font-size: clamp(0.875rem, 0.75rem + 0.625vw, 1.25rem);
+}
+.secondary-paragraph {
+  font-size: clamp(0.5rem, 0.1667rem + 1.2vw, 1rem);
+}
+/* */
+.footer-text {
+  font-size: clamp(0.5rem, 0.25rem + 1.25vw, 1.25rem);
+}
+
+.img-w {
+  width: 70%;
+}
